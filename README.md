@@ -297,7 +297,12 @@ CARE is licensed under the Apache License Version 2.0. See the [LICENSE](./LICEN
 
 Special thanks to all contributors and the open-source community for their support.
 
-特别感谢所有贡献者和开源社区的支持。
+<h2>Star Chart</h2>
+<p align="center">
+  <a href="https://star-history.com/#SII-WenjieLisjtu/CARE">
+    <img src="https://api.star-history.com/svg?repos=SII-WenjieLisjtu/CARE&type=Date" alt="Star History Chart" width="800">
+  </a>
+</p>
 
 ## Contact
 
