@@ -173,7 +173,7 @@ You can install CARE via pip:
 
 
 ```bash
-pip install CARE
+pip install sigmaflow
 ```
 
 ## Quick Start
