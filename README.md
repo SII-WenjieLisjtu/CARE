@@ -185,7 +185,7 @@ Here is a basic example to get you started:
 <summary>Example Code</summary>
 
 ```python
-from CARE import CARE, Prompt
+from sigmaflow import sigmaflow, Prompt
 
 # set custom prompt
 example_prompt = Prompt("""
@@ -241,7 +241,7 @@ demo_pipe = {
 }
 
 # running pipeline
-pipeline = CARE(demo_pipe, llm_api, rag_api)
+pipeline = sigmaflow(demo_pipe, llm_api, rag_api)
 result, info = pipeline.run(data, core_num=4, save_pref=True)
 ```
 
@@ -258,7 +258,7 @@ For a complete example, please refer to the example directory.
 > We have updated a more easy-to-use command to run pipeline.
 
 ```bash
-CARE -p example/demo_pipeline.py -i example/demo_data.json -m async
+sigmaflow -p example/demo_pipeline.py -i example/demo_data.json -m async
 ```
 
 Command Options:
